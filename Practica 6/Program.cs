@@ -11,6 +11,9 @@ namespace Practica6
             double x = Convert.ToDouble(s);
 
             double F = 5 * Math.Sin(x) - 7 * Math.Cos(x);
+
+            Console.WriteLine($"Для значения х = {x}, F = {F}.");
+            Console.ReadKey();
         }
     }
 }
