@@ -10,6 +10,7 @@ namespace Practica6
             string s = Console.ReadLine();
             double x = Convert.ToDouble(s);
 
+            double F = 5 * Math.Sin(x) - 7 * Math.Cos(x);
         }
     }
 }
